@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/doimk.png</file>
+        <file>image/dx.png</file>
+        <file>image/giamu.png</file>
+        <file>image/khachhang.png</file>
+        <file>image/login.png</file>
+        <file>image/logospkt.jpg</file>
+        <file>image/nentrang.jpg</file>
+        <file>image/quanly.png</file>
+        <file>image/quantri.png</file>
+        <file>image/them.png</file>
+        <file>image/thoat.png</file>
+        <file>image/thongtin.png</file>
+        <file>image/xacnhan.png</file>
+        <file>image/xanhtrang.jpg</file>
+        <file>image/xoa.png</file>
+    </qresource>
+</RCC>

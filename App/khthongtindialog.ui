@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KHThongTinDialog</class>
+ <widget class="QDialog" name="KHThongTinDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Thông tin khách hàng</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Họ và tên</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Số điện thoại</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Gmail</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>RFID</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Số tài khoản</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Ngân hàng</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLineEdit" name="lineEditHoVaTen"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditSoDienThoai"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditGmail"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditRFID"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditSoTaiKhoan"/>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxNganHang">
+          <item>
+           <property name="text">
+            <string>BIDV</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Vietcombank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VPBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VietinBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MBBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ACB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SHB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Techcombank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Agribank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HDBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LienVietPostBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VIB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SeABank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VBSP</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>TPBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>OCB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MSB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Sacombank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Eximbank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SCB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VDB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nam A Bank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ABBANK</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PVcomBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Bac A Bank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UOB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Woori</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HSBC</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SCBVL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PBVN</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SHBVN</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NCB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VietABank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BVBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Vikki Bank	</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Vietbank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ANZVL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MBV</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CIMB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Kienlongbank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>IVB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BAOVIET Bank	</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SAIGONBANK</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Co-opBank	</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>GPBank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VRB</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>VCBNeo</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>HLBVN</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PGBank</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>6</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonXacNhan">
+       <property name="text">
+        <string>Xác nhận</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonThoat">
+       <property name="text">
+        <string>Thoát</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
